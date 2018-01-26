@@ -88,11 +88,13 @@
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
+                android:onClick="openAddRevenue"
                 android:text="Receita"/>
             <Button
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
+                android:onClick="openAddExpense"
                 android:text="Despesa"/>
         </LinearLayout>
     </LinearLayout>

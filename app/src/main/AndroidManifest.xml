@@ -21,7 +21,11 @@
         <activity
             android:name=".VisualizationsActivity"
             android:label="@string/title_activity_visualizations"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Transactions.AddRevenueActivity" />
+        <activity android:name=".Transactions.AddExpenseActivity" />
+        <activity android:name=".Transactions.ManageRevenueActivity" />
+        <activity android:name=".Transactions.ManageExpenseActivity"></activity>
     </application>
 
 </manifest>
